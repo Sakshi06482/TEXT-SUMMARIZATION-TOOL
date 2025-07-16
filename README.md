@@ -14,9 +14,9 @@
  
 *Description*
 
-       *Project Overview*:
-       
-                Text summarization is the process of distilling the most important information from a source to produce an abridged version for easier consumption. With the explosion of digital 
+*Project Overview* :
+
+Text summarization is the process of distilling the most important information from a source to produce an abridged version for easier consumption. With the explosion of digital 
                 
 content, automatic summarization tools are increasingly important in applications like news aggregation, academic research, and report generation.This project uses classic frequency-based 
 
