@@ -20,3 +20,34 @@ Text summarization is the process of distilling the most important information f
 automatic summarization tools are increasingly important in applications like news aggregation, academic research, and report generation.This project uses classic frequency-based summarization 
 methods. It tokenizes the text, removes stop words, scores each sentence based on word frequency, and then extracts the top N sentences as the summary.
 
+*Importing Libraries*:
+
+Utilizes nltk, re, and heapq for natural language processing, regular expressions, and priority queues respectively.
+
+*Tokenization*:
+
+Splits the text into individual sentences and words using sent_tokenize() and word_tokenize().
+
+*Stop Word Removal*:
+
+Common English words (like the, is, at) are removed using NLTK's stopwords to retain only meaningful words.
+
+*Word Frequency Calculation*:
+
+Counts the frequency of each word and normalizes it.
+
+*Sentence Scoring*:
+
+Each sentence is scored based on the sum of normalized word frequencies.
+
+Only sentences shorter than 30 words are considered (to avoid overly long summaries).
+
+*Summary Generation*:
+
+The top N highest-scoring sentences are selected using heapq.nlargest() and combined into the final summary.
+
+
+
+
+
+
