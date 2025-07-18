@@ -24,11 +24,17 @@ This project presents a simple yet effective frequency-based text summarization 
 
 **Importing Libraries**:
 
-Utilizes nltk, re, and heapq for natural language processing, regular expressions, and priority queues respectively.
+nltk – Natural Language Toolkit for tokenization and stop word removal.
+
+re – Regular expressions module for text preprocessing.
+
+heapq – Python’s heap queue algorithm to efficiently retrieve top scoring sentences.
 
 **Tokenization**:
 
-Splits the text into individual sentences and words using sent_tokenize() and word_tokenize().
+Sentence Tokenization: Using sent_tokenize() to divide text into sentences.
+
+Word Tokenization: Using word_tokenize() to split sentences into individual words.
 
 **Stop Word Removal**:
 
@@ -60,10 +66,15 @@ Lightweight – no deep learning or complex models required.
 
 **Launch Notebook**:
 
-Open Text_Summarization.ipynb in VS Code and run each cell to test the summarization tool.
+To run the project:
 
+Open Text_Summarization.ipynb in Visual Studio Code or Jupyter Notebook.
 
+Run each cell step-by-step.
 
+Enter your input text and specify how many sentences you'd like in the summary.
+
+View the generated summary output.
 
 
 
